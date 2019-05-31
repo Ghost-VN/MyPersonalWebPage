@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+	overflow-x: hidden;
+	
+}
+
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+.navbar{
+	background:black;
+	opacity: 0.8;
+}
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+	
+}
+
+#webapp{
+   font-size: 32px;
+   font-family: "Raleway";
+}
+
+.nav-link{
+	margin-right: 1em;
+}
+.nav-link:hover{
+	background: blue;
+	border-radius: 20px;
+	color: white;
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff;
+}
+
+/*header style*/
+.header{
+	position: relative;
+	background-image: url('../img/theme.jpg');
+
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+.description h1{
+	color:blue ;
+}
+.description p{
+	color:#666;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button{
+	border:1px  solid red;
+	background:red;
+	color:#fff;
+}
+
+.simple{
+	height: 50px;
+}
+
+.data{
+	margin-right: 250px;
+	font-size: 17px;
+}
+		   
+.socnet{
+	display: list-item;
+	text-align: right;
+	margin-top: 7px;
+	height: 30px;
+	width: 30px;
+	opacity: 0.5;
+}
+
+.soc{
+	margin-top: -170px;
+	margin-left: 1240px;
+}
+
+
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+	cursor: pointer;
+}
+.about h1{
+	color:#F97300;
+	margin: 2em;
+}
+.about img{
+	height: 100%;
+    width: 100%;
+    border-radius: 65%;
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+
+.img-fluid{
+	border-radius: 20px;
+}
+
+
+
+#email_profile,
+#phone_profile,
+#city_profile,
+#country_profile,
+#education_profile,
+#educationForm_profile{
+	line-height: 1.5;
+	color: rgb(150, 91, 15);
+	font-size: 17px;
+	margin-left: 130px;
+	margin-top: -30px;
+}
+
+#trainers_profile{
+	line-height: 1.5;
+	color: rgb(97, 81, 81);
+	font-size: 17px;
+	margin-left: 130px;
+	margin-top: -30px;
+}
+
+#trainers_email{
+	line-height: 1.5;
+	color: rgb(97, 81, 81);
+	font-size: 20px;
+	margin-left: 130px;
+	margin-top: -5px;
+}
+
+.personalinformation{
+	border-radius: 20px;
+	height: 250px;
+	opacity: 0.8;
+	margin-top: 10px;
+	font-size: 20px;
+	font-family: cursive;
+	font-weight: bold;
+
+}
+
+#myfoto{
+	border-radius: 70%;
+}
+
+.courses-modules{
+	border-radius: 20px;
+	height: 250px;
+	opacity: 0.8;
+	margin-top: 10px;
+}
+
+
+.interest{
+	height: 238px;
+	width: 240px;
+	margin-top: 17px;
+	margin-left: 70px;
+	padding-right: 500px;
+	background-color: rgb(10, 10, 190);
+	padding: 25px;
+	border-radius: 20px;
+	
+}
+
+#interests_profile{
+	font-family: cursive;
+	font-size: 25px;
+	
+}
+
+
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #10828C;
+}
+.about .desc h3{
+	color: #10828C;
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+
+
+#courses{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: -50px;
+	font-size: 27px;
+	color: rgb(29, 122, 122);
+	margin-left: 110px;
+	cursor: pointer;
+}
+
+.text-center{
+	box-sizing: content-box;
+}
+
+
+/*MY INTERESTS*/
+.myinterests{
+	margin: 4em 0;
+	margin-top: 700px;
+	position: relative;	
+}
+.myinterests h1{
+	color:#F97300;
+	margin: 2em;	
+}
+.myinterests img{
+	 height: 15rem;
+	 width: 100%;
+	 margin: 1em;
+	
+
+}
+
+.about{
+	top: 450px;
+}
+
+/*#courses-modules{
+	
+	margin-top: -70px;
+}*/
+
+#mycours{
+	margin-right: -350px;
+}
+
+#modules{
+	font-size: 17px;
+	margin-top: 20px;
+	margin-left: 200px;
+	
+	
+}
+
+.boxfoslider{
+	height: 450px;
+	width:  900px;
+	margin-left: 290px;
+	margin-top: -100px;
+	
+}
+
+.carousel-item{
+    height: 450px;
+	width:  900px;
+	
+}
+
+.carousel-inner{
+	border-radius: 20px;
+	
+}
+
+
+.iwant{
+	
+	margin-right: 550px;
+	
+	
+}
+
+.iwant h1{
+	color:#F97300;
+	margin: 2em;
+	margin-bottom: 200px;
+}
+
+
+.footer 
+   {
+    left: 0;
+	bottom: 0;
+	margin-bottom: -14px;
+	margin-left: 2px;
+    width: 100%;
+    text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	position: fixed;
+	opacity: 0.5;
+}

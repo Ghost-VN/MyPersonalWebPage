@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet"    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="shortcut icon" href="img/yb20.png" type="img/png">
+		<link rel="stylesheet"    href="css/style.css">
+		<title>Yurii Bondar</title>
+</head>
+
+
+<body>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+				
+	  <script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>	
+		<script src="https://intita.com/api/dist/intita-api-client.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script> 
+		
+		
+  <nav class="navbar navbar-expand-lg fixed-top ">
+	  <a class="navbar-brand" id="webapp" href="#">Web App Developer</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+			                     <!-- МЕНЮ -->
+			   
+	  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-4">
+	      
+	      <li class="nav-item">
+	        <a class="nav-link" data-value="about" href="#">Personal information</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="myinterests" href="#">My interests</a>
+	      </li>
+				 <li class="nav-item">
+						<a class="nav-link "  data-value="iwant" href="#" > I want know</a>
+					</li>
+				<li class="nav-item">
+	        <a class="nav-link " data-value="coursesandmodules" href="#">Courses and modules</a>
+				</li>
+				<li class="nav-item">
+	        <a class="nav-link " href="https://intita.com" target="_blank"> About IT Academy</a>
+				</li>
+					
+			</ul>
+    </div>
+						
+</nav>
+
+<!-- ПРИВІТАННЯ -->
+<header class="header ">
+  <div class="overlay"></div>
+   <div class="container">
+   	  <div class="description ">
+
+				                         <!-- СОЦІАЛЬНІ МЕРЕЖІ -->
+				 <div class="soc">
+					     <a href="https://www.youtube.com/channel/UCmCJ3_Cyl_S-VnX7pf7p0yw?view_as=subscriber" title="account" target="_blank">   
+						      <img class="socnet"  src="img/socnetwork/youtube.png" alt="youtube" title="youtube"> 
+				      </a>   
+						 <a href="https://myaccount.google.com/?hl=ru" title="my google" target="_blank">   
+								 <img class="socnet"  src="img/socnetwork/google.png" alt="google" title="google"> 
+							</a> 
+										 <a  href="https://www.skype.com/uk/" title="my skype" target="_blank">   
+													 <img class="socnet" src="img/socnetwork/skype.png" alt="skype" title="skype"> 
+										 </a>
+														<a  href="https://www.facebook.com/yurii.bondar.12" title="my page FACEBOOK" target="_blank">   
+																<img class="socnet" src="img/socnetwork/fb.png" alt="facebook" title="facebook"> 
+														</a>
+																		<a  href="https://www.instagram.com/bond_ua_vn" title="my page INSTAGRAM" target="_blank">   
+																				<img class="socnet" src="img/socnetwork/insta.png" alt="instagram" title="instagram"> 
+																		</a>
+																	</div>
+  	<h1>
+		HELLO! WELCOME YOU TO MY WEB-PAGE
+  		<p>
+			Do you want know more about me?</p>
+			<button class="btn btn-outline-secondary btn-lg" >LET'S GO</button>
+			</h1>
+  </div>
+	 </div>
+	 
+</header>
+
+<!-- PERSONAL INFORMATION -->
+<div class="about" id="about" name="pers">
+	<div class="container">
+	  <h1 class="text-center">Personal information</h1>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="img/myFoto.jpg" class="img-fluid" id="myfoto">
+			</div>
+
+			<div  id="mydata" class="col-lg-8 col-md-8 col-sm-12 desc">
+			  
+				<h3 id="firstName"></h3>
+				<div class="personalinformation" id="firstblok">
+					<div class="text-center"></div>
+								<div class="data"> EMAIL<span id="email_profile"> </span></div>
+								<div class="data"> PHONE<span id="phone_profile"> </span></div>
+								<div class="data"> CITY<span  id="city_profile"> </span></div>
+							    <div class="data"> COUNTRY<span id="country_profile"> </span></div>
+					            <div class="data"> EDUCATION<span id="education_profile"> </span></div>
+			                    <div class="data"> EDUCATION&nbspFORM<span id="educationForm_profile"> </span></div>
+	                            <div class="data"> TRAINERS<span id="trainers_profile"> </span></div>
+                                <div class="data"><span id="trainers_email"> </span></div>
+	                            
+		       </div>                  
+			   </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- INTERESTS -->
+
+<div class="myinterests" id="myinterests">
+     <h1 class="text-center">My interests</h1>
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="img/travel.jpg" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+					<div class="interest" id="secondblok">
+						<div class="datainterest">
+							<span id="interests_profile"> </span>
+						</div>
+				</div>   
+				 
+				</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="img/velo.jpg" class="img-fluid">
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="img/arm.jpg" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="img/watch.jpg" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="img/weapon.jpg" class="img-fluid">
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<!-- I WANT KNOW -->
+
+<div class="iwant" id="iwant" class="about">
+		  <h1 class="text-center" id="mycours">I want know</h1>
+				<div class="col-lg-4 col-md-4 col-sm-12">
+				</div>
+														
+													<!-- СЛАЙДЕР -->
+				
+		     	  <div  id="sliderslider" class="col-lg-8 col-md-8 col-sm-12 desc">
+						
+								<div class="boxfoslider">
+								    <div class="myslider">
+												<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+																				<ol class="carousel-indicators">
+																						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+																						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+																						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+																						<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+																						<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+																						<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+																						<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+																				</ol>
+																				<div class="carousel-inner">
+																						<div class="carousel-item active">
+																												<img class="d-block w-100" src="img/slider/js2.jpg" alt="First slide">
+																												<div class="carousel-caption d-none d-md-block">
+																														
+																										</div>
+																						</div>
+																						<div class="carousel-item">
+																												<img class="d-block w-100" src="img/slider/nodejs.jpeg" alt="Second slide">
+																												<div class="carousel-caption d-none d-md-block">
+																														
+																												</div>
+																						</div>
+																						<div class="carousel-item">
+																												<img class="d-block w-100" src="img/slider/react.jpg" alt="Third slide">
+																												<div class="carousel-caption d-none d-md-block">
+																														
+																												</div>
+																						</div>
+																						<div class="carousel-item">
+																												<img class="d-block w-100" src="img/slider/vue1.png" alt="Forth slide">
+																												<div class="carousel-caption d-none d-md-block">
+																														
+																												</div>
+																						</div>
+																						<div class="carousel-item">
+																												<img class="d-block w-100" src="img/slider/angular1.png" alt="Fifth slide">
+																												<div class="carousel-caption d-none d-md-block">
+																														
+																												</div>
+																								</div>
+																								<div class="carousel-item">
+																												<img class="d-block w-100" src="img/slider/three.png" alt="Sixth slide">
+																												<div class="carousel-caption d-none d-md-block">
+																														
+																												</div>
+																								</div>
+																								<div class="carousel-item">
+																												<img class="d-block w-100" src="img/slider/intita.jpg" alt="Seventh slide">
+																												<div class="carousel-caption d-none d-md-block">
+																														
+																												</div>
+																								</div>
+																								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+																										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+																										<span class="sr-only">Previous</span>
+																								</a>
+																								<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+																										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+																										<span class="sr-only">Next</span>
+																								</a>
+																		</div>
+														</div>
+										  </div>
+								</div>
+											
+
+
+			   </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- COURSES AND MODULES -->
+
+<div class="about" id="coursesandmodules">
+		<div class="container">
+			<h1 class="text-center" id="mycours">Courses and modules</h1>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<img src="img/icodevelop/js.png" id="itafoto" class="img-fluid">
+				</div>
+	
+				<div  id="courses-modules" class="col-lg-8 col-md-8 col-sm-12 desc">
+					<div class="courses-modules">
+										
+							<div class ="pointer"  id="courses"  align="left"></div>
+							<div class ="pointer"  id="modules" ></div>
+							<div class ="simple"></div>
+																
+								 </div>                  
+					 </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div class="footer">
+		<p>Copyright © 2019 Yurii Bondar. All rights reserved.</p>
+		 </div>     
+
+	
+</body>
+</html>
